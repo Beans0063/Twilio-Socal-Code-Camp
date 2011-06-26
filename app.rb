@@ -76,7 +76,7 @@ get '/' do
   </body></html>"
 end
 
-post '/guthub' do
+post '/github' do
   engineering_team_numbers=["8583829141","(858) 324-4443"]
 
   payload    = JSON.parse(params[:payload])
