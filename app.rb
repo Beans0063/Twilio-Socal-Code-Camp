@@ -3,6 +3,7 @@ require 'sinatra'
 require 'twilio-ruby'
 require 'dm-core'
 require 'pusher'
+require 'json'
 
 Pusher.app_id = 'xxxxx'
 Pusher.key    = 'xxxxxx'
